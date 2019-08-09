@@ -4,6 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+flask = "*"
+flask-script = "*"
+uwsgi = "*"
 
 [dev-packages]
 flake8 = "*"
@@ -16,6 +19,7 @@ parameterized = "*"
 python_version = "3.7.4"
 
 [scripts]
+start = "python manage.py runserver"
 test = "pytest"
 lint = "flake8 ."
 format = "autopep8 -ivr ."
