@@ -10,6 +10,7 @@ flake8 = "*"
 autopep8 = "*"
 mypy = "*"
 pytest = "*"
+parameterized = "*"
 
 [requires]
 python_version = "3.7.4"
