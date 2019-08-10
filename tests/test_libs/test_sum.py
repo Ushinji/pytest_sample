@@ -1,5 +1,5 @@
 import pytest
-from libs.sum import sum
+from app.libs.sum import sum
 
 
 class TestSum():
