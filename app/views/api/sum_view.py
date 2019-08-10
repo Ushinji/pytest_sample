@@ -2,7 +2,7 @@ from flask import jsonify, request
 from app import application
 
 
-@application.route("/sum", methods=["GET"])
+@application.route("/api/sum", methods=["GET"])
 def get_sum():
     a = request.args.get('a')
     b = request.args.get('b')
