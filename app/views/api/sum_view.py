@@ -11,5 +11,5 @@ def get_sum():
         return jsonify({'result': int(a) + int(b)})
     else:
         return jsonify({
-            'errors': f'Query params must be integer. a: {a}, b: {b}'
+            'errors': f'Query strings must be integer. a: {a}, b: {b}'
         }), 422

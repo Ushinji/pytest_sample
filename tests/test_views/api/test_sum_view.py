@@ -45,4 +45,4 @@ class TestApiSumViewInAbNormalCase(Base):
             '/api/sum', {'a': 'A', 'b': 'B'})
         data = json.loads(response.get_data(as_text=True))
 
-        assert data['errors'] == f'Query params must be integer. a: A, b: B'
+        assert data['errors'] == f'Query strings must be integer. a: A, b: B'
